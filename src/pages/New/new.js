@@ -90,7 +90,7 @@ class Index extends React.Component{
                     console.log('www',document.getElementsByClassName("none1"))
                     this.setState({
                         number:0,
-                        flag:true  
+                        flag:true   
                     })
                     localStorage.clear()
                 },1000)
